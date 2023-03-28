@@ -32,7 +32,7 @@ public class ArrayBasic {
         //iter + Enter for누르고 alt +enter누르면 편리하게 바꾸기 가능
         for (int j = 0; j < arr.length; j++) {
             int i = arr[j];
-            System.out.printf("데이터 : %d\n", n);
+            System.out.printf("데이터 : %d\n", i);
         }
 
     }

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="타입 커밋">
-      <change afterPath="$PROJECT_DIR$/src/day02/ArrayBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/SwitchExample.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="배열 커밋">
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPop_method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/ArrayPush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/ArrayBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/ArrayBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679966636927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="배열 커밋">
+      <created>1679968219252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679968219252</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="타입 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="타입 커밋" />
+    <MESSAGE value="배열 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="배열 커밋" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
