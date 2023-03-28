@@ -1,4 +1,7 @@
 ### IntelliJ IDEA ###
+
+README.md
+
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
