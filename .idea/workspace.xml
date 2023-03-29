@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="Arrayquiz commit">
-      <change afterPath="$PROJECT_DIR$/src/day03/ArrayDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/ArrayInsert.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="ArrayDelete, ArrayInsert 커밋커밋">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/ArrayInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/ArrayInsert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680051808036</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ArrayDelete, ArrayInsert 커밋커밋">
+      <created>1680054072905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680054072905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,7 +123,8 @@
     <MESSAGE value="배열 push, pop" />
     <MESSAGE value="마지막 커밋" />
     <MESSAGE value="Arrayquiz commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrayquiz commit" />
+    <MESSAGE value="ArrayDelete, ArrayInsert 커밋커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayDelete, ArrayInsert 커밋커밋" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
