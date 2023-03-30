@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="생성자 커밋">
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="객체지향, 생성자">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/FieldMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/FieldMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/StringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/StringCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.언어 디폴트 값"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.DancerMain">
+  <component name="RunManager" selected="애플리케이션.StringCompare">
     <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
       <module name="java_basic" />
@@ -83,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04.StringCompare" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.StringCompare" />
         <item itemvalue="애플리케이션.DancerMain" />
         <item itemvalue="애플리케이션.MethodQuiz" />
       </list>
@@ -204,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680140877711</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="객체지향, 생성자">
+      <created>1680141925875</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680141925875</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,14 +239,15 @@
     <MESSAGE value="martrix" />
     <MESSAGE value="Dancer commit" />
     <MESSAGE value="생성자 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="생성자 커밋" />
+    <MESSAGE value="객체지향, 생성자" />
+    <option name="LAST_COMMIT_MESSAGE" value="객체지향, 생성자" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day04/Dancer.java</url>
-          <line>7</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
