@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="객체지향, 생성자">
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="문자열 비교">
+      <change afterPath="$PROJECT_DIR$/src/day04/PackagePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/Grape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fruit/warm/PineApple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/juice/Apple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/StringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/StringCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680141925875</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="문자열 비교">
+      <created>1680143147443</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680143147443</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,7 +252,8 @@
     <MESSAGE value="Dancer commit" />
     <MESSAGE value="생성자 커밋" />
     <MESSAGE value="객체지향, 생성자" />
-    <option name="LAST_COMMIT_MESSAGE" value="객체지향, 생성자" />
+    <MESSAGE value="문자열 비교" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열 비교" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
