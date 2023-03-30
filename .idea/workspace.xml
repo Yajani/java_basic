@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="martrix">
-      <change afterPath="$PROJECT_DIR$/src/day04/DanceLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/Dancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/DancerMain.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="Dancer commit">
+      <change afterPath="$PROJECT_DIR$/src/day04/FieldAndLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/FieldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day04/Singer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/DanceLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/DanceLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/DancerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/DancerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -190,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680075178570</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Dancer commit">
+      <created>1680139445806</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680139445806</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,7 +213,19 @@
     <MESSAGE value="ArrayDelete, ArrayInsert 커밋커밋" />
     <MESSAGE value="arrayinsert 커밋" />
     <MESSAGE value="martrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="martrix" />
+    <MESSAGE value="Dancer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dancer commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day04/Dancer.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

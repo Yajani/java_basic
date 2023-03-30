@@ -10,6 +10,7 @@ public class DancerMain {
         Dancer park = new Dancer("스트릿댄스");
         Dancer jang = new Dancer("장동견", "목각댄스",DanceLevel.PRO);
 
+        Singer song = new Singer("아무개");
 
 //        System.out.println(kim);
 //        System.out.println(park);
