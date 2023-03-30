@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="Dancer commit">
-      <change afterPath="$PROJECT_DIR$/src/day04/FieldAndLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/FieldMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day04/Singer.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="생성자 커밋">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/DanceLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/DanceLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/DancerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/DancerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/FieldMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/FieldMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/Singer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680139445806</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="생성자 커밋">
+      <created>1680140877711</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680140877711</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -214,7 +218,8 @@
     <MESSAGE value="arrayinsert 커밋" />
     <MESSAGE value="martrix" />
     <MESSAGE value="Dancer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dancer commit" />
+    <MESSAGE value="생성자 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="생성자 커밋" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
