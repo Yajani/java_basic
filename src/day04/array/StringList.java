@@ -52,4 +52,24 @@ public class StringList {
         return Arrays.toString(sArr);
     }
 
+    //배열이 텅텅비었는지 확인
+    boolean isEmpty() {
+        return sArr.length == 0;
+    }
+
+    //배열 데이터 전체삭제
+    void clear(){
+        sArr = new String[0];
+    }
+
+    //인덱스 탐색 (indexof)
+
+    //자료 유무 확인 (includes)
+
+    //중간 삭제 (remove)
+
+    //중간 삽입 (insert)
+
+
+
 }
