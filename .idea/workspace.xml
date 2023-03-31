@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="문자열리스트 함수">
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/member/요구사항.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/player/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/player/Player.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="dya05커밋">
+      <change afterPath="$PROJECT_DIR$/src/day05/member/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/member/MemberView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/player/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/player/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +67,7 @@
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Test">
-    <configuration name="DancerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04.DancerMain" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.day05.member.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04.array.Main" />
       <module name="java_basic" />
@@ -119,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day05.member.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.member.Main" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="day05.player.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day05.player.Main" />
       <module name="java_basic" />
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day05.member.Main" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.day05.player.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.StringCompare" />
-        <item itemvalue="애플리케이션.DancerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680169418972</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="dya05커밋">
+      <created>1680228634651</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680228634651</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -318,7 +326,8 @@
     <MESSAGE value="패키지 개념" />
     <MESSAGE value="StringList 개념" />
     <MESSAGE value="문자열리스트 함수" />
-    <option name="LAST_COMMIT_MESSAGE" value="문자열리스트 함수" />
+    <MESSAGE value="dya05커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="dya05커밋" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

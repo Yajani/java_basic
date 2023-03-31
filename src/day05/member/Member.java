@@ -1,5 +1,6 @@
 package day05.member;
 
+// 역할: 1명의 회원정보를 묶어주는 역할
 public class Member {
 
     int memberId;
