@@ -30,15 +30,17 @@ public class MemberView {
     /**
      * 프로그램 화면 흐름을 제어하는 기능
      */
-    void ViewProcess() {
+    void viewProcess() {
         while (true) {
             mainView();
             String menuNum = input(">> ");
 
             switch (menuNum) {
                 case "1":
+                    signUp();
                     break;
                 case "2":
+                    showDetailMember();
                     break;
                 case "3":
                     mr.showMembers();
@@ -74,25 +76,66 @@ public class MemberView {
         sc.nextLine();
     }
 
-    //회원 등록 입력 처리
+    // 회원 등록 입력 처리
     void signUp() {
-        System.out.println("\n#회원 등록을 시작합니다!!");
+        System.out.println("\n# 회원 등록을 시작합니다!!");
+
+        String email;
         while (true) {
-            String email = input("# 이메일: ");
-            if(mr.isDuplicateEmail(email)) {
+            email = input("# 이메일: ");
+            if (!mr.isDuplicateEmail(email)) {
                 break;
             }
-            System.out.println("#중복된 이메일입니다 ㅋㅋ");
+            System.out.println("# 중복된 이메일입니다 ㅋㅋ");
+        }
+        String name = input("# 이름: ");
+        String password = input("# 패스워드: ");
+
+        Gender gender;
+        checkGender: while (true) {
+            String inputGender = input("# 성별[M/F] : ");
+            switch (inputGender.toUpperCase().charAt(0)) {
+                case 'M':
+                    gender = Gender.MALE;
+                    break checkGender;
+                case 'F':
+                    gender = Gender.FEMALE;
+                    break checkGender;
+                default:
+                    System.out.println("# 성별을 M/F로 정확히 입력하세요");
+            }
         }
 
+        int age = Integer.parseInt(input("# 나이: "));
+
+        // 실제 저장 명령
+        Member newMember = new Member(
+                mr.getLastMemberId() + 1,
+                email, password,
+                name, gender, age
+        );
+        mr.addMember(newMember);
+
+        System.out.println("\n# 회원 가입 성공!!");
+        stop();
     }
 
-    void showDetailMember(){
-        //이메일을 입력하세요!
-        System.out.print("#이메일 : ");
-
-        //찾은 회원의 정보~~~
+    // 회원 개별조회를 위한 입출력처리
+    void showDetailMember() {
+        // 이메일 입력하세요!
+        String inputEmail = input("# 조회를 시작합니다!\n# 이메일: ");
+        Member foundMember = mr.findByEmail(inputEmail);
+        // 찾은 회원의 정보 ~~~~~~
+        if (foundMember != null) {
+            System.out.println("\n========= 조회 결과 =========");
+            System.out.printf("# 이름: %s\n", foundMember.memberName);
+            System.out.printf("# 비밀번호: %s\n", foundMember.password);
+            System.out.printf("# 성별: %s\n", (foundMember.gender == Gender.MALE) ? "남성" : "여성");
+            System.out.printf("# 나이: %d세\n", foundMember.age);
+        } else {
+            System.out.println("\n# 조회된 회원이 없습니다.");
+        }
+        stop();
     }
-
 
 }
