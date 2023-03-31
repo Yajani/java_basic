@@ -65,4 +65,10 @@ public class MemberRepository {
         return false;
     }
 
+    void showDetailMember(){
+        //이메일 입력하세요!
+        System.out.println("이메일 입력하세요");
+        //찾은 회원의 정보 ~~~~
+
+    }
 }

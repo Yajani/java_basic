@@ -6,9 +6,11 @@ import java.util.Scanner;
 public class MemberView {
 
     Scanner sc;
+    MemberRepository mr;
 
     public MemberView() {
         this.sc = new Scanner(System.in);
+        this.mr = new MemberRepository();
     }
 
     /**
@@ -28,7 +30,7 @@ public class MemberView {
     /**
      * 프로그램 화면 흐름을 제어하는 기능
      */
-    void viewProcess() {
+    void ViewProcess() {
         while (true) {
             mainView();
             String menuNum = input(">> ");
@@ -39,13 +41,15 @@ public class MemberView {
                 case "2":
                     break;
                 case "3":
+                    mr.showMembers();
+                    stop();
                     break;
                 case "4":
                     break;
                 case "5":
                     break;
                 case "6":
-                    String answer = input("# 정말로 종료합니까? [y/n]");
+                    String answer = input("# 정말로 종료합니까? [y/n] : ");
                     if (answer.toLowerCase().charAt(0) == 'y') {
                         System.out.println("# 프로그램을 종료합니다.");
                         System.exit(0);
@@ -63,5 +67,32 @@ public class MemberView {
         System.out.print(message);
         return sc.nextLine();
     }
+
+    // 엔터를 누르기전까지 멈추는 기능
+    void stop() {
+        System.out.println("\n======= 엔터를 눌러서 계속...======");
+        sc.nextLine();
+    }
+
+    //회원 등록 입력 처리
+    void signUp() {
+        System.out.println("\n#회원 등록을 시작합니다!!");
+        while (true) {
+            String email = input("# 이메일: ");
+            if(mr.isDuplicateEmail(email)) {
+                break;
+            }
+            System.out.println("#중복된 이메일입니다 ㅋㅋ");
+        }
+
+    }
+
+    void showDetailMember(){
+        //이메일을 입력하세요!
+        System.out.print("#이메일 : ");
+
+        //찾은 회원의 정보~~~
+    }
+
 
 }
