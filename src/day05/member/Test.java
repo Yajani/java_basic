@@ -31,5 +31,10 @@ public class Test {
             System.out.println("이메일이 잘못됨!");
         }
 
+        System.out.println("==========================");
+        mr.showMembers();
+        mr.removeMember("Aabc@def.com");
+        mr.removeMember("hhh@qwe.com");
+
     }
 }
