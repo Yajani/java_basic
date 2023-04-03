@@ -119,13 +119,21 @@ public class MemberRepository {
         return true;
     }
 
-    void removeMember(String email){
-        //인덱스 찾기
-        int index = findIndexByEmail(email);
-        //앞으로 땡기기
+    void removeMember(String email) {
+        // 인덱스 찾기
+        int delIndex = findIndexByEmail(email);
 
-        //배열 마지막 칸 없애기
-        memberList[memberList.length - 1] =
+        // 앞으로 땡기기
+        for (int i = delIndex; i < memberList.length - 1; i++) {
+            memberList[i] = memberList[i + 1];
+        }
+
+        // 배열 마지막 칸 없애기
+        Member[] temp = new Member[memberList.length - 1];
+        for (int i = 0; i < temp.length; i++) {
+            temp[i] = memberList[i];
+        }
+        memberList = temp;
     }
 
 
