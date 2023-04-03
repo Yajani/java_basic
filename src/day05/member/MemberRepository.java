@@ -5,19 +5,23 @@ public class MemberRepository {
 
     public static final int NOT_FOUND = -1;
 
+    // 가입된 회원 배열
     Member[] memberList;
 
+    // 삭제된 회원 배열
+    Member[] removeMembers;
+
     public MemberRepository() {
-        this.memberList = new Member[3];
-        memberList[0] = new Member(1, "abc@def.com",
-                "1234", "콩벌레",
-                Gender.MALE, 50);
-        memberList[1] = new Member(2, "xxx@zzz.com",
-                "9999", "팥죽이",
-                Gender.FEMALE, 30);
-        memberList[2] = new Member(3, "hhh@qwe.com",
-                "5678", "카레왕",
-                Gender.FEMALE, 44);
+        this.memberList = new Member[0];
+//        memberList[0] = new Member(1, "abc@def.com",
+//                "1234", "콩벌레",
+//                Gender.MALE, 50);
+//        memberList[1] = new Member(2, "xxx@zzz.com",
+//                "9999", "팥죽이",
+//                Gender.FEMALE, 30);
+//        memberList[2] = new Member(3, "hhh@qwe.com",
+//                "5678", "카레왕",
+//                Gender.FEMALE, 44);
     }
 
     /**
@@ -71,7 +75,7 @@ public class MemberRepository {
 
     // 마지막 회원의 번호를 알려주는 기능
     int getLastMemberId() {
-        return memberList[memberList.length - 1].memberId;
+        return !isEmpty() ? memberList[memberList.length - 1].memberId : 0;
     }
 
     /**
@@ -136,5 +140,9 @@ public class MemberRepository {
         memberList = temp;
     }
 
+    // 멤버가 비었는지 확인
+    boolean isEmpty() {
+        return memberList.length == 0;
+    }
 
 }
