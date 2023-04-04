@@ -17,7 +17,7 @@ class Child1 extends Parent1 {
 public class GisaFirst {
 
     public static void main(String[] args) {
-        Parent1 obj = new Child1();
+        Child1 obj = new Child1();
         System.out.print(obj.compute(4));
     }
 }

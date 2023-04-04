@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="생성자, 접근제어자">
-      <change afterPath="$PROJECT_DIR$/src/day07/lotto/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/protec/pac2/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/quiz/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/quiz/GisaFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/quiz/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/quiz/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/static_/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/static_/Main.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="...">
+      <change afterPath="$PROJECT_DIR$/src/day07/lotto/LottoSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/quiz/Quiz01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/static_/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/lotto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/lotto/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/protec/pac1/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/protec/pac1/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/protec/pac1/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/protec/pac1/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/protec/pac2/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/protec/pac2/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/protec/pac2/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/protec/pac2/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/quiz/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/quiz/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/quiz/GisaFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/quiz/GisaFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/quiz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/quiz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/quiz/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/quiz/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/static_/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/static_/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/static_/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/static_/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
     </key>
   </component>
   <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day07.lotto.Main" />
       <module name="java_basic" />
       <extension name="coverage">
@@ -402,11 +404,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680574362212</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="...">
+      <created>1680593919520</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1680593919520</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="타입 커밋" />
     <MESSAGE value="배열 커밋" />
     <MESSAGE value="배열 push, pop" />
     <MESSAGE value="마지막 커밋" />
@@ -431,7 +439,8 @@
     <MESSAGE value="은닉화, 캡슐화 내용" />
     <MESSAGE value="4월 4일 커밋" />
     <MESSAGE value="생성자, 접근제어자" />
-    <option name="LAST_COMMIT_MESSAGE" value="생성자, 접근제어자" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
