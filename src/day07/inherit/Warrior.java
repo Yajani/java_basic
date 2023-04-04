@@ -1,11 +1,7 @@
 package day07.inherit;
 
-public class Warrior {
-
-    String nickName; // 캐릭터 이름
-    int level;
-    int hp;
-    int exp;
+//서브 클래스(자식 클래스)
+public class Warrior  extends Player{
     int rage; // 분노게이지
 
     public Warrior(String nickName) {
@@ -15,18 +11,19 @@ public class Warrior {
         this.rage = 20;
     }
 
-    // 캐릭터 상태창을 보는 기능
-    public void showStatus() {
-        System.out.println("\n======= Character's Info =========");
-        System.out.println("# name: " + this.nickName);
-        System.out.println("# level: " + this.level);
-        System.out.println("# hp: " + this.hp);
-    }
 
     // 파워슬래시
     public void powerSlash() {
         System.out.println("파워슬래시를 시전합니다.");
     }
+
+    //오버라이딩
+    //조건 : 부모의 시그니처(리턴타입, 이름, 파아미터)를 똑같이 사용
+    //      접근제한자는 무조건 부모보다 public해야 함.
+    public void showStatus(){
+
+    }
+
 
 
 }
