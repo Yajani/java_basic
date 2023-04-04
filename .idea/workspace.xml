@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="4월 4일 커밋">
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/inherit/Player.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="생성자, 접근제어자">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day07/inherit/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -381,11 +381,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680567837588</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="생성자, 접근제어자">
+      <created>1680571115942</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1680571115942</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="타입 커밋" />
     <MESSAGE value="배열 커밋" />
     <MESSAGE value="배열 push, pop" />
@@ -410,7 +416,8 @@
     <MESSAGE value="접근 제어자" />
     <MESSAGE value="은닉화, 캡슐화 내용" />
     <MESSAGE value="4월 4일 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="4월 4일 커밋" />
+    <MESSAGE value="생성자, 접근제어자" />
+    <option name="LAST_COMMIT_MESSAGE" value="생성자, 접근제어자" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

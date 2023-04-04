@@ -5,9 +5,7 @@ public class Mage extends Player{
     int mana; //마력 게이지
 
     public Mage(String nickName) {
-        this.nickName = nickName;
-        this.level = 1;
-        this.hp = 50;
+        super(nickName);
         this.mana = 100;
 
     }
@@ -16,5 +14,11 @@ public class Mage extends Player{
     //썬더볼트
     public void thunderBolt(){
 
+    }
+    //ctrl + o => 오버라이딩 단축키
+    @Override
+    public void showStatus() {
+        super.showStatus();
+        System.out.println("# mana: " + this.mana);
     }
 }

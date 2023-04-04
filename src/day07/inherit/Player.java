@@ -8,6 +8,14 @@ public class Player {
     int hp;
     int exp;
 
+    //부모의 생성자
+    public Player(String nickName) {
+        System.out.println("Player의 생성자 호출!");
+        this.nickName = nickName;
+        this.level = 1;
+        this.hp = 50;
+    }
+
     // 캐릭터 상태창을 보는 기능
     public void showStatus() {
         System.out.println("\n======= Character's Info =========");
