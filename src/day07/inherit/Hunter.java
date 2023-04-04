@@ -7,11 +7,7 @@ public class Hunter extends Player{
         super(nickName);
         this.concentrate = 100;
     }
-//3 / 2 / 3 /this.name = name => super.name = name;
-//    "Parent() call"
-//    "Parent(String) call"
-//   "Child() call"
-//   "Child(String) call"
+
     public  void summonBeast(){
 
     }
