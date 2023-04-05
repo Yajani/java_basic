@@ -1,0 +1,36 @@
+package day08.poly.car;
+
+import com.sun.security.auth.NTUserPrincipal;
+
+public class CarShop {
+    Car[] cars;
+
+//    Mustang[] mustangs;
+//    Stinger[] stingers;
+//    Tucson[] tucsons;
+
+    //대리점에 차를 입고하는 기능
+    public void  importCar() {
+
+        //배열을 이종모음 구조로 만들 수 있다.
+        Car m = new Mustang();
+        Car s = new Stinger();
+        Car t = new Tucson();
+
+        cars = new Car[] {
+                new Mustang(),
+                new Mustang(),
+                new Mustang(),
+                new Stinger(),
+                new Tucson()
+        };
+
+        //문자열과 정수와 논리를 배열에 담을 수 있는가?
+        Object[] oArr = {
+                50,30,3.3,"zzz",false,
+                new Mustang()
+        };
+
+    }
+
+}
