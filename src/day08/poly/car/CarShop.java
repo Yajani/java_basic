@@ -29,8 +29,16 @@ public class CarShop {
         Object[] oArr = {
                 50,30,3.3,"zzz",false,
                 new Mustang()
+
         };
 
+    }
+    //주행 테스트 기능
+    public void runTest() {
+        importCar(); //차 입고
+        for (Car car : cars) {
+            car.accelerate();
+        }
     }
 
 }
