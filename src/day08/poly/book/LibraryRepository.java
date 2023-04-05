@@ -1,5 +1,9 @@
 package day08.poly.book;
 
+import day04.array.StringList;
+
+import static day08.poly.book.RentStatus.*;
+
 //도서관 관리 시스템 처리
 public class LibraryRepository {
 
@@ -41,5 +45,64 @@ public class LibraryRepository {
         }
         return infoList;
     }
+
+    //검색어를 받으면 해당 검색어를 포함하는 제목을 가진
+    //책 정보들을 반환
+    public String[] searchBookInfoList(String keyword){
+        StringList list = new StringList();
+        //bookList를 뒤져야 됨.
+        for (Book book : bookList){
+            String title = book.getTitle(); //책 제목
+            if(title.contains(keyword)){
+                //검색어에 걸린 책의 정보문자열
+                String info = book.info();
+                list.push(info);
+            }
+        }
+        return list.getsArr();
+    }
+
+    public String[] searchAuthorList(String author){
+        StringList list = new StringList();
+        //bookList를 뒤져야 됨.
+        for (Book book: bookList ){
+            String Author = book.getAuthor(); // 저자 이름
+            if(Author.contains(author)){
+                //검색어에 걸린 책의 정보 문자열
+                String info = book.info();
+                list.push(info);
+            }
+        }
+        return list.getsArr();
+    }
+
+    //도서 대여 처리
+    public RentStatus rentBook(int rentNum){
+        //대여를 원하는 책 추출
+        Book wishBook = bookList[rentNum - 1];
+
+        //책의 분류에 따라 다른 처리
+        if(wishBook instanceof CookBook) {
+            CookBook cookBook = (CookBook) wishBook;
+            //쿠폰 유무를 확인
+            if(cookBook.isCoupon()){
+                bookUser.setCouponCount(bookUser.getCouponCount()+1);
+                return RENT_SUCCESS_WITH_COUPON;
+            }else {
+                return RENT_SUCCESS;
+            }
+        } else if (wishBook instanceof CartoonBook) {
+            //연령제한을 확인
+            if(bookUser.getAge() >= ((CartoonBook) wishBook).getAccessAge()){
+                //빌릴 수 있는 경우
+                return RENT_SUCCESS;
+            }else{
+                return RENT_FAIL;
+            }
+        }
+        return RENT_FAIL;
+    }
+
+
 
 }

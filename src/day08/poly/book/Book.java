@@ -7,9 +7,9 @@ public class Book {
     private String author; //저자명
     private String publisher; //출판사명
 
-    public Book(){
+    //대여 상태
 
-    }
+    public Book(){}
 
     public Book(String title, String author, String publisher) {
         this.title = title;

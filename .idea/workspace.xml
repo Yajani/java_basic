@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="다형성 #1">
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/BookUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/CartoonBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/CookBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/Run.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="도서관리 시스템">
+      <change afterPath="$PROJECT_DIR$/src/day08/poly/book/RentStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/array/StringList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/array/StringList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -462,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680662938388</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="도서관리 시스템">
+      <created>1680676444414</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1680676444414</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="arrayinsert 커밋" />
     <MESSAGE value="martrix" />
     <MESSAGE value="Dancer commit" />
     <MESSAGE value="생성자 커밋" />
@@ -502,7 +505,8 @@
     <MESSAGE value="Car 다형성" />
     <MESSAGE value="poly" />
     <MESSAGE value="다형성 #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="다형성 #1" />
+    <MESSAGE value="도서관리 시스템" />
+    <option name="LAST_COMMIT_MESSAGE" value="도서관리 시스템" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
