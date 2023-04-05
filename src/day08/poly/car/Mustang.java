@@ -7,5 +7,6 @@ public class Mustang extends Car{
     }
 
     public void powerSound() {
+        System.out.println("폭풍같은 배기소리가 납니다.");
     }
 }

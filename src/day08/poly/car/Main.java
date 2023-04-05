@@ -27,10 +27,14 @@ public class Main {
 
         makeLine();
 
-        Mustang car = (Mustang) shop.exportCar(6000);
-        System.out.println("car = "+ car);
+        Car car = shop.exportCar(6000);
+        System.out.println(car instanceof Stinger);
+        System.out.println(car instanceof Mustang);
+        System.out.println(car instanceof Tucson);
 
+//        System.out.println("car = "+ car);
 //        car.powerSound();
+
 
 
     }
