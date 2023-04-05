@@ -12,7 +12,7 @@ public class Mage extends Player{
 
 
     //썬더볼트
-    public void thunderBolt(){
+    public void thunderBolt(Player ... target){
 
     }
     //ctrl + o => 오버라이딩 단축키

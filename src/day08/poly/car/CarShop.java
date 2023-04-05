@@ -41,4 +41,18 @@ public class CarShop {
         }
     }
 
+    //차를 고객에게 인도하는 기능
+    public Car exportCar(int money){
+        if(money == 6000){
+            return new Mustang();
+        } else if (money == 5000) {
+            return new Stinger();
+
+        }else if(money == 3000){
+            return new Tucson();
+        }else{
+            return null;
+        }
+    }
+
 }
