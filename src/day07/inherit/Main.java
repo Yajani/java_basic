@@ -18,11 +18,14 @@ public class Main {
                 new Warrior("요리왕쿠킹")
         };
 
+        System.out.println("# "+m.nickName+"님 썬더볼트 시전!!!");
+        System.out.println("====================================");
         m.thunderBolt(
-                w, h,
+                w, h, m,
                 new Warrior("토끼곤듀"),
                 new Warrior("딸긔곤듀")
         );
+
 
     }
 }

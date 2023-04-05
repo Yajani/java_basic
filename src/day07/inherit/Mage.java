@@ -11,10 +11,27 @@ public class Mage extends Player{
     }
 
 
-    //썬더볼트
-    public void thunderBolt(Player ... target){
+    // 썬더볼트
+    public void thunderBolt(Player... targets) {
+        System.out.printf("# %s님 썬더볼트 시전!!!!\n", this.nickName);
+        System.out.println("======================================");
 
+
+        for (Player p : targets) {
+            if (p == this) continue; //this => Mage
+            //맞은 사람이 혹시 나??
+
+            //10 ~ 15의 랜덤 피해
+            int damage = (int) (Math.random() * 6 + 10);
+            //실제 체력에서 차감
+            p.hp -= damage;
+//            p.setHp(p.getHp() - damage);
+
+            System.out.printf("%s님이 %d의 피해를 입었습니다.(남은 체력: %d)\n"
+                    , p.nickName, damage, p.hp);
+        }
     }
+
     //ctrl + o => 오버라이딩 단축키
     @Override
     public void showStatus() {

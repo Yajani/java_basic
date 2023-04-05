@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="Car 다형성">
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/car/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/poly/overloading/Over.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="poly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Mustang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,8 +147,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.day08.poly.car.Main" />
-        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.day07.inherit.Main" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.day06.encap.Main" />
         <item itemvalue="애플리케이션.day05.member.Main" />
       </list>
@@ -442,11 +443,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680657478164</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="poly">
+      <created>1680659147194</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1680659147194</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrayquiz commit" />
     <MESSAGE value="ArrayDelete, ArrayInsert 커밋커밋" />
     <MESSAGE value="arrayinsert 커밋" />
     <MESSAGE value="martrix" />
@@ -471,7 +489,8 @@
     <MESSAGE value="4월4일 마지막 커밋" />
     <MESSAGE value="다형성 커밋" />
     <MESSAGE value="Car 다형성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Car 다형성" />
+    <MESSAGE value="poly" />
+    <option name="LAST_COMMIT_MESSAGE" value="poly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
