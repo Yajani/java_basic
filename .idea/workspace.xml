@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="final 상수 처리">
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/GoldFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/abs/Pet.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="abstract 클래스">
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/BadAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/BullDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Huntable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Rabbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/inter/Wild.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -479,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680741815965</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="abstract 클래스">
+      <created>1680747892601</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1680747892601</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="생성자 커밋" />
     <MESSAGE value="객체지향, 생성자" />
     <MESSAGE value="문자열 비교" />
     <MESSAGE value="패키지 개념" />
@@ -519,7 +530,8 @@
     <MESSAGE value="도서관리 시스템" />
     <MESSAGE value="도서관리 시스템 완성쓰" />
     <MESSAGE value="final 상수 처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="final 상수 처리" />
+    <MESSAGE value="abstract 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract 클래스" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
