@@ -7,17 +7,25 @@ public class Galaxy extends SmartPhone implements Pencil {
 
     @Override
     public String information() {
-        return "갤럭시는 "+getModel()+"에서 만들어졌고 제원은 다음과 같다";
+        String message = String.format("갤럭시는 %s에서 만들어졌고 제원은 다음과 같다.\n", getModel());
+        message += makeCall() + "\n";
+        message += takeCall() + "\n";
+        message += takePicture() + "\n";
+        message += charge() + "\n";
+        message += touchDisplay() + "\n";
+        message += "블루투스 펜 탑재 여부: " + bluetoothPen() + "\n";
+
+        return message;
     }
 
     @Override
     public String charge() {
-        return "정전식, 와콤펜 지원";
+        return "고속충전, 고속 무선 충전";
     }
 
     @Override
     public String takePicture() {
-        return "13000만 듀얼카메라";
+        return "1300만 듀얼카메라";
     }
 
     @Override
@@ -33,5 +41,10 @@ public class Galaxy extends SmartPhone implements Pencil {
     @Override
     public boolean bluetoothPen() {
         return true;
+    }
+
+    @Override
+    public String touchDisplay() {
+        return "정전식, 와콤펜 지원";
     }
 }

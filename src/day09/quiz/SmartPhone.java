@@ -1,18 +1,16 @@
 package day09.quiz;
 
-public abstract class SmartPhone implements Camera,PhoneCall{
+public abstract class SmartPhone implements Camera, PhoneCall, Touchable {
+
     private String model;
 
-    public SmartPhone() {
-
+    public SmartPhone(String model) {
+        this.model = model;
     }
 
     public abstract String information();
     public abstract String charge();
 
-    public SmartPhone(String model) {
-        this.model = model;
-    }
 
     public String getModel() {
         return model;

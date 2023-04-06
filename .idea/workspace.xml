@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="인터페이스 퀴즈">
-      <change afterPath="$PROJECT_DIR$/src/day09/song/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/song/ArtistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/song/ArtistView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/song/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/song/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="음악 검색 프로그램">
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/Galaxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz/Galaxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/IPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz/IPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz/SmartPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/Touchable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/quiz/Touchable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/quiz/practice.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -501,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680757561758</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="음악 검색 프로그램">
+      <created>1680769767813</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1680769767813</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="패키지 개념" />
     <MESSAGE value="StringList 개념" />
     <MESSAGE value="문자열리스트 함수" />
     <MESSAGE value="dya05커밋" />
@@ -541,7 +547,8 @@
     <MESSAGE value="abstract 클래스" />
     <MESSAGE value="인터페이스" />
     <MESSAGE value="인터페이스 퀴즈" />
-    <option name="LAST_COMMIT_MESSAGE" value="인터페이스 퀴즈" />
+    <MESSAGE value="음악 검색 프로그램" />
+    <option name="LAST_COMMIT_MESSAGE" value="음악 검색 프로그램" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
