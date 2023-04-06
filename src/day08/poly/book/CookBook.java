@@ -13,7 +13,7 @@ public class CookBook extends Book{
 
     public boolean isCoupon() {
         return coupon;
-    }
+    } //getter
 
     public void setCoupon(boolean coupon) {
         this.coupon = coupon;

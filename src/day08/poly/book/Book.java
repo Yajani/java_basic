@@ -45,8 +45,8 @@ public class Book {
     public String info(){
         // 문자열 글자수 얻기 length()
         int length = this.title.length();
-        String prettier;
-        if(length > 8){
+        String prettier; //생략한 문자열
+        if(length > 8){ //책 제목의 길이가 8글자보다 길면
             // 문자열 슬라이스 substring()
             prettier = this.title.substring(0,8) + "...";
         }else{

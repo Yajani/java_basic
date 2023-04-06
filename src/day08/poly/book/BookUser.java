@@ -2,6 +2,7 @@ package day08.poly.book;
 
 import day05.member.Gender;
 
+//도서관 회원 정보
 public class BookUser {
 
     private String name; // 도서관 회원 이름

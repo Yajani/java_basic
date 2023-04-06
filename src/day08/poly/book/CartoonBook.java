@@ -4,7 +4,7 @@ public class CartoonBook extends Book{
 
     private int accessAge; //나이 제한
 
-    public CartoonBook() {
+    public CartoonBook() { //기본 생성자
 
     }
 
