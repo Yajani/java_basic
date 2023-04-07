@@ -1,5 +1,7 @@
 package day10.collection.song;
 
+import java.util.Set;
+
 import static day07.util.Utility.input;
 import static day07.util.Utility.makeLine;
 
@@ -67,16 +69,21 @@ public class ArtistView {
 
     // 2번 메뉴 기능
     private static void searchProcess() {
-        System.out.println("#검색할 가수명을 입력하세요.");
-        String artisName = input("- 가수명: ");
-        if(ar.isRegistered(artisName)){
-            //등록된 경우
-            System.out.printf("#%s 님의 음악 목록 ",artisName);
-            String[] songList = ar.getSongList(artisName);
-            for (int i = 0; i < songList.length; i++) {
-                System.out.printf("* %d. %s\n",i+1,songList[i]);
+
+        System.out.println("\n# 검색할 가수명을 입력하세요.");
+        String artistName = input("- 가수명: ");
+
+        if (ar.isRegistered(artistName)) {
+            // 등록된 경우
+            System.out.printf("\n# %s님의 노래목록 \n", artistName);
+            makeLine();
+            Set<String> songList = ar.getSongList(artistName);
+            int i = 0;
+            for (String song : songList) {
+                System.out.printf("* %d. %s\n", i+1, song);
+                i++;
             }
-        }else{ //등록되지 않은 경우
+        } else {
             System.out.println("\n# 해당 가수는 등록되지 않았습니다.");
         }
     }
