@@ -16,8 +16,7 @@ public class Car {
         this.model = model;
     }
 
-    public void setMode(char mode) {
-
+    public void setMode(char mode) { //모드 설정
         switch (mode) {
             case 'D': case 'R': case 'N': case 'P':
                 this.mode = mode;
@@ -43,7 +42,7 @@ public class Car {
 
     //getter: 필드값을 참조하기 위한 메서드
     public int getSpeed() {
-        //필드에는km로 저장되어있는데
+        //필드에는 km로 저장되어있는데
         //mile 변환해서 줘야함.
         return this.speed;
     }
@@ -52,6 +51,7 @@ public class Car {
     private void inject() {
         System.out.println("연료가 주입됩니다.");
     }
+
     //엔진오일이 순환하는 기능
     private void putOil() {
         System.out.println("엔진오일이 순환합니다.");
@@ -65,6 +65,7 @@ public class Car {
             System.out.println("차가 폭발합니다.");
         }
     }
+
     //시동버튼을 누르는 기능
     public void pressButton() {
         this.start = true;

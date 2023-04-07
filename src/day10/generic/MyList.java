@@ -1,7 +1,6 @@
 package day10.generic;
 
 import java.util.Arrays;
-import java.util.Map;
 
 // 배열을 제어하는 설계도
 public class MyList<V> {

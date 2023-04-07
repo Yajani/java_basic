@@ -17,15 +17,15 @@ public class ListExample {
 
         List<String> foodList = new ArrayList<>();
 
-        // add(E e): 끝 추가
+        // add(E e) : 끝 추가
         foodList.add("짜장면");
         foodList.add("짬뽕");
         foodList.add("닭강정");
         foodList.add("파스타");
         foodList.add("리조또");
 
-        //add(index, element) :중간 삽입
-        foodList.add(1, "족발");
+        // add(index, element) : 중간 삽입
+        foodList.add(2, "족발");
 
         // size() : 저장된 데이터 개수를 반환
         int size = foodList.size();
@@ -72,28 +72,28 @@ public class ListExample {
         System.out.println("foodList = " + foodList);
         System.out.println(foodList.isEmpty());
 
-        //리스트에 초기값 넣고 시작하기
+        // 리스트에 초기값 넣고 시작하기
         List<String> tvxq = new ArrayList<>(
-                Arrays.asList("유노윤호","최강창민")
+                Arrays.asList("유노윤호", "최강창민")
         );
         System.out.println("tvxq = " + tvxq);
-        
-        //정렬(듀얼 피벗 퀵 정렬)
+
+        // 정렬 (듀얼 피벗 퀵 정렬)
         List<Integer> numbers = new ArrayList<>(
-                Arrays.asList(5,30,17,9,52,41)
+                Arrays.asList(5, 30, 17, 9, 52, 41)
         );
+        makeLine();
         System.out.println("numbers = " + numbers);
-        
-        //오름차순 정렬
+
+        // 오름차 정렬
         Collections.sort(numbers);
+
         System.out.println("numbers = " + numbers);
-        
-        //내림차 정렬
+
+        // 내림차 정렬
         numbers.sort(Comparator.reverseOrder());
+
         System.out.println("numbers = " + numbers);
-        
-        
-        
-        
+
     }
 }
