@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="음악 검색 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/FinallyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/ThrowsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/exception/TryExample2.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="예외처리">
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/LoginValidateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/exception/UserMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.FinallyExample">
+  <component name="RunManager" selected="애플리케이션.UserMain">
     <configuration name="FinallyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.exception.FinallyExample" />
       <module name="java_basic" />
@@ -133,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09.song.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.song.Test" />
+    <configuration name="UserMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.UserMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.song.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.UserMain" />
         <item itemvalue="애플리케이션.FinallyExample" />
         <item itemvalue="애플리케이션.TryExample2" />
         <item itemvalue="애플리케이션.TryExample1" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.day09.song.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679964376617</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <created>1679965608386</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679965608386</updated>
     </task>
     <task id="LOCAL-00003" summary="initial commit">
       <created>1679965990324</created>
@@ -508,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680770023415</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="예외처리">
+      <created>1680831146827</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1680831146827</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StringList 개념" />
     <MESSAGE value="문자열리스트 함수" />
     <MESSAGE value="dya05커밋" />
     <MESSAGE value="member commit" />
@@ -548,7 +545,8 @@
     <MESSAGE value="인터페이스" />
     <MESSAGE value="인터페이스 퀴즈" />
     <MESSAGE value="음악 검색 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="음악 검색 프로그램" />
+    <MESSAGE value="예외처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="예외처리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
