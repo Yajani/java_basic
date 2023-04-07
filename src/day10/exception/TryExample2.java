@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class TryExample2 {
     public static void main(String[] args) {
-        try {
             Scanner sc = new Scanner(System.in);
+        try {
             System.out.print("정수1: ");
             int n1 = sc.nextInt();  //InputMismatchException
 
