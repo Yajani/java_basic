@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="generic">
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="List 제공하는 기능">
+      <change afterPath="$PROJECT_DIR$/src/day10/collection/list/ListSearchQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/collection/map/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/collection/set/SetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/ArtistView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/collection/song/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/collection/list/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/list/ListExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/java_basic/src/day10/collection/song",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -62,17 +69,21 @@
       <recent name="day08.poly" />
       <recent name="day05.member" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\java_basic\src\day10\collection\song" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day10.collection.list" />
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ListExample">
-    <configuration name="FinallyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exception.FinallyExample" />
+  <component name="RunManager" selected="애플리케이션.MapExample">
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.exception.*" />
+          <option name="PATTERN" value="day10.collection.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListExample" />
+    <configuration name="ListSearchQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListSearchQuiz" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample1" />
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.map.MapExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.exception.*" />
+          <option name="PATTERN" value="day10.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample2" />
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.set.SetExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.exception.*" />
+          <option name="PATTERN" value="day10.collection.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MapExample" />
+        <item itemvalue="애플리케이션.SetExample" />
+        <item itemvalue="애플리케이션.ListSearchQuiz" />
         <item itemvalue="애플리케이션.ListExample" />
         <item itemvalue="애플리케이션.UserMain" />
-        <item itemvalue="애플리케이션.FinallyExample" />
-        <item itemvalue="애플리케이션.TryExample2" />
-        <item itemvalue="애플리케이션.TryExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679964376617</updated>
-    </task>
-    <task id="LOCAL-00006" summary="배열 push, pop">
-      <created>1679971653240</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1679971653240</updated>
     </task>
     <task id="LOCAL-00007" summary="마지막 커밋">
       <created>1679982718160</created>
@@ -507,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680837286608</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="List 제공하는 기능">
+      <created>1680838940455</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1680838940455</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#회원관리앱" />
     <MESSAGE value="오늘의 처음 커밋" />
     <MESSAGE value="멤버 삭제처리 커밋" />
     <MESSAGE value="회원관리 시스템 마지막 커밋" />
@@ -547,7 +557,8 @@
     <MESSAGE value="예외처리 2" />
     <MESSAGE value="예외처리 3" />
     <MESSAGE value="generic" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic" />
+    <MESSAGE value="List 제공하는 기능" />
+    <option name="LAST_COMMIT_MESSAGE" value="List 제공하는 기능" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
