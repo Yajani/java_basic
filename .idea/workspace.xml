@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="예외처리 3">
-      <change afterPath="$PROJECT_DIR$/src/day10/collection/list/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/AppleBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/BananaBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/generic/MyList.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="generic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/collection/list/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/list/ListExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "nele.options"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +66,7 @@
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.UserMain">
+  <component name="RunManager" selected="애플리케이션.ListExample">
     <configuration name="FinallyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.exception.FinallyExample" />
       <module name="java_basic" />
@@ -88,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.song.Main" />
+    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.song.*" />
+          <option name="PATTERN" value="day10.collection.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ListExample" />
         <item itemvalue="애플리케이션.UserMain" />
         <item itemvalue="애플리케이션.FinallyExample" />
         <item itemvalue="애플리케이션.TryExample2" />
         <item itemvalue="애플리케이션.TryExample1" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -171,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679964376617</updated>
-    </task>
-    <task id="LOCAL-00005" summary="배열 커밋">
-      <created>1679968219252</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1679968219252</updated>
     </task>
     <task id="LOCAL-00006" summary="배열 push, pop">
       <created>1679971653240</created>
@@ -515,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680833272054</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="generic">
+      <created>1680837286608</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1680837286608</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="member commit" />
     <MESSAGE value="#회원관리앱" />
     <MESSAGE value="오늘의 처음 커밋" />
     <MESSAGE value="멤버 삭제처리 커밋" />
@@ -555,7 +546,8 @@
     <MESSAGE value="예외처리" />
     <MESSAGE value="예외처리 2" />
     <MESSAGE value="예외처리 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="예외처리 3" />
+    <MESSAGE value="generic" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
