@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class People {
-    private String nickName; //닉네임
+    private String nickName;
+    private string name;
 
     //팔로워 목록
     private List<People> followers;
