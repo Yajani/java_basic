@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="자바 api Fileoutput, Fileinput">
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="member  클래스에 file기능 실행하기">
+      <change afterPath="$PROJECT_DIR$/src/day11/io/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/io/objstream/LoadSnack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/io/objstream/SaveSnack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/io/objstream/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11/io/rw/FileReaderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +80,13 @@
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="FileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.io.file.FileExample" />
+  <component name="RunManager" selected="애플리케이션.SaveSnack">
+    <configuration name="FIleReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.rw.FIleReaderExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.io.file.*" />
+          <option name="PATTERN" value="day11.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,25 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.io.stream.FileOutputExample" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11.io.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileWriterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day11.io.rw.FileWriterExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.io.rw.*" />
+          <option name="PATTERN" value="day11.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaveSnack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.io.objstream.SaveSnack" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day11.io.objstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.SaveSnack" />
+        <item itemvalue="애플리케이션.FIleReaderExample" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.FileWriterExample" />
         <item itemvalue="애플리케이션.FileInputExample" />
-        <item itemvalue="애플리케이션.FileOutputExample" />
-        <item itemvalue="애플리케이션.FileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -168,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679964376617</updated>
-    </task>
-    <task id="LOCAL-00015" summary="생성자 커밋">
-      <created>1680140877711</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1680140877711</updated>
     </task>
     <task id="LOCAL-00016" summary="객체지향, 생성자">
       <created>1680141925875</created>
@@ -512,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681103838153</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="member  클래스에 file기능 실행하기">
+      <created>1681104199575</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1681104199575</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="..." />
     <MESSAGE value="4월4일 마지막 커밋" />
     <MESSAGE value="다형성 커밋" />
     <MESSAGE value="Car 다형성" />
@@ -552,7 +560,8 @@
     <MESSAGE value="자바 api system,string 빌더" />
     <MESSAGE value="자바 api date" />
     <MESSAGE value="자바 api Fileoutput, Fileinput" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 api Fileoutput, Fileinput" />
+    <MESSAGE value="member  클래스에 file기능 실행하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="member  클래스에 file기능 실행하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

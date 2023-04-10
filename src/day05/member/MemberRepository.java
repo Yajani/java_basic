@@ -72,7 +72,7 @@ public class MemberRepository {
             saveInfo +="," + newMember.gender;
             saveInfo +="," + newMember.age;
 
-            fw.write(saveInfo + "\n");
+            fw.append(saveInfo + "\n"); //기존거 유지하고 붙이기
 
         } catch (IOException e) {
             System.out.println("파일 저장 실패!");
