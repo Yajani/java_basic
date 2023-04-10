@@ -7,7 +7,7 @@ import java.util.List;
 
 public class People {
     private String nickName;
-    private string name;
+    private String name;
 
     //팔로워 목록
     private List<People> followers;
