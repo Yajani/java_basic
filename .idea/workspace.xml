@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="자바 api">
-      <change afterPath="$PROJECT_DIR$/src/day11/api/obj/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/api/system/SystemExample.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="자바 api obj">
+      <change afterPath="$PROJECT_DIR$/src/day11/api/string/StrBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/friends/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/friends/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/api/obj/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/api/obj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day11/api/obj/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/api/obj/Pen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day11/api/system/SystemExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day11/api/system/SystemExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.SystemExample">
+  <component name="RunManager" selected="애플리케이션.StrBuilder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day06.encap.Main" />
       <module name="java_basic" />
@@ -116,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.collection.set.SetExample" />
+    <configuration name="StrBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day11.api.string.StrBuilder" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day10.collection.set.*" />
+          <option name="PATTERN" value="day11.api.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.StrBuilder" />
         <item itemvalue="애플리케이션.SystemExample" />
         <item itemvalue="애플리케이션.day11.api.obj.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.MapExample" />
-        <item itemvalue="애플리케이션.SetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -173,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679964376617</updated>
-    </task>
-    <task id="LOCAL-00011" summary="martrix">
-      <created>1680056760589</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1680056760589</updated>
     </task>
     <task id="LOCAL-00012" summary="martrix">
       <created>1680058313311</created>
@@ -517,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681086915946</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="자바 api obj">
+      <created>1681089769737</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1681089769737</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="접근 제어자" />
     <MESSAGE value="은닉화, 캡슐화 내용" />
     <MESSAGE value="4월 4일 커밋" />
     <MESSAGE value="생성자, 접근제어자" />
@@ -557,7 +553,8 @@
     <MESSAGE value="set, map" />
     <MESSAGE value="#컬렉션" />
     <MESSAGE value="자바 api" />
-    <option name="LAST_COMMIT_MESSAGE" value="자바 api" />
+    <MESSAGE value="자바 api obj" />
+    <option name="LAST_COMMIT_MESSAGE" value="자바 api obj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
