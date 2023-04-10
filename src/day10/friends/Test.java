@@ -20,7 +20,7 @@ public class Test {
         List<String> kimWaitList = kim.showFollowerWaitPerson();
         System.out.println("kimWaitList = " + kimWaitList);
 
-        List<String> followerNames = kim.showFollower();
+        List<String> followerNames = kim.showFollowerWaitPerson();
         System.out.println("followerNames = " + followerNames);
 
     }
