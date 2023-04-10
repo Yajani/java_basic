@@ -1,5 +1,7 @@
 package day05.member;
 
+import java.time.LocalDate;
+
 // 역할: 회원 저장소 역할
 public class MemberRepository {
 
@@ -52,6 +54,10 @@ public class MemberRepository {
         for (int i = 0; i < memberList.length; i++) {
             temp[i] = memberList[i];
         }
+
+        //회원가입 시간 등록
+        newMember.regDate = LocalDate.now();
+
         temp[temp.length - 1] = newMember;
         memberList = temp;
 
