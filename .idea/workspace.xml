@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="member  클래스에 file기능 실행하기">
-      <change afterPath="$PROJECT_DIR$/src/day11/io/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/io/objstream/LoadSnack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/io/objstream/SaveSnack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/io/objstream/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day11/io/rw/FileReaderExample.java" afterDir="false" />
+    <list default="true" id="f4e762ef-5dc3-40d9-a49d-60854d29f6f4" name="Changes" comment="파일속성,,,">
+      <change afterPath="$PROJECT_DIR$/src/day12/inner/AddCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/inner/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/inner/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/inner/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/ArtistRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -177,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679964376617</updated>
-    </task>
-    <task id="LOCAL-00016" summary="객체지향, 생성자">
-      <created>1680141925875</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1680141925875</updated>
     </task>
     <task id="LOCAL-00017" summary="문자열 비교">
       <created>1680143147443</created>
@@ -521,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681104199575</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="파일속성,,,">
+      <created>1681108561935</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1681108561935</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4월4일 마지막 커밋" />
     <MESSAGE value="다형성 커밋" />
     <MESSAGE value="Car 다형성" />
     <MESSAGE value="poly" />
@@ -561,7 +555,8 @@
     <MESSAGE value="자바 api date" />
     <MESSAGE value="자바 api Fileoutput, Fileinput" />
     <MESSAGE value="member  클래스에 file기능 실행하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="member  클래스에 file기능 실행하기" />
+    <MESSAGE value="파일속성,,," />
+    <option name="LAST_COMMIT_MESSAGE" value="파일속성,,," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
