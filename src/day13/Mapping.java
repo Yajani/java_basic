@@ -41,11 +41,45 @@ public class Mapping {
         // 칼로리를 정수가 아닌 문자열로 kcal을 뒤에 붙여서 추출 후
         // 메뉴이름: xxxkcal 로 반복 출력하고 싶음
         List<SimpleDish> simpleDishes = menuList.stream()
-                .map(dish -> new SimpleDish(dish.getName(), dish.getCalories() + "kcal"))
+                .map(dish -> new SimpleDish(dish))
                 .collect(Collectors.toList());
 
 
         simpleDishes.forEach(sd -> System.out.println(sd));
+
+
+        /*
+            메뉴 목록에서 칼로리가 500칼로리보다 큰
+            음식들을 필터링한 다음에 음식의 이름과 타입만
+            추출해서 출력해주세요.
+         */
+        makeLine();
+
+        menuList.stream()
+                .filter(d -> d.getCalories() > 500)
+//                .limit(3)
+                .map(d -> new DishNameType(d))
+                .collect(Collectors.toList())
+                .forEach(dnt -> System.out.println(dnt));
+
+
+        makeLine();
+
+        // 메뉴 목록에 있는 요리들의 총 칼로리수 구하기
+        int totalCal = menuList.stream()
+                .mapToInt(d -> d.getCalories())
+                .sum();
+
+        System.out.println("totalCal = " + totalCal);
+
+        // 육류 메뉴의 평균 칼로리
+        double averageCal = menuList.stream()
+                .filter(d -> d.getType() == Dish.Type.MEAT)
+                .mapToInt(d -> d.getCalories())
+                .average()
+                .getAsDouble();
+
+
 
 
     }
