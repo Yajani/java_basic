@@ -17,7 +17,7 @@ public class LibraryView {
     // static 데이터는 생성자에서 초기화하면 안됨.
     // static필드의 초기화는 static initializer를 사용
     static {
-//        System.out.println("정적 초기화자 호출!");
+//        System.out.println("정적 초기화자 호출!"); => 자동 호출(우리가 따로 불러주는게 아님!!)
 //        sc = new Scanner(System.in);
         repository = new LibraryRepository();
     }
@@ -58,9 +58,7 @@ public class LibraryView {
 
     // 화면 처리
     public static void start() {
-
         makeNewBookUser();
-
         // 메인 메뉴 띄우기
         while (true) {
             showMainScreen();
