@@ -26,7 +26,6 @@ public class SaveSnack {
             //객체 저장을 위한 보조 스트림
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(snackList);
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
